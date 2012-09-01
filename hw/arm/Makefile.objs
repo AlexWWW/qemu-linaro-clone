@@ -40,6 +40,10 @@ obj-y += collie.o
 obj-y += imx_serial.o imx_ccm.o imx_timer.o imx_avic.o
 obj-y += kzm.o
 obj-y += pl041.o lm4549.o
+obj-y += lpc32xx_intc.o lpc32xx.o
+obj-y += lpc32xx_boards.o lpc32xx_uart.o
+obj-y += lpc32xx_clkpm.o
+obj-y += lpc32xx_timer.o
 obj-$(CONFIG_FDT) += ../device_tree.o
 obj-$(CONFIG_KVM) += kvm/arm_gic.o
 
